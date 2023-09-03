@@ -5,6 +5,6 @@ const button = document.querySelector("button");
 
 if (button && input) {
     button.addEventListener("click", () => {
-        concatenation("Hello!", input.value);
+        concatenation(input.value, "Hello!");
     });
 }
